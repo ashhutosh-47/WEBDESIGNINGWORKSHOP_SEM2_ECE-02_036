@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: auto;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background: skyblue;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(17, 225, 229);
+}
+
+#result {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
